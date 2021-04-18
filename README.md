@@ -3,7 +3,7 @@ A cheating bar for [orteil's cookie clicker](https://orteil.dashnet.org/cookiecl
 # You're cheating!!!!! Stop it!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 It's a singleplayer game.
 # How use this!?!?!??!!?
-Copy everything from [here]()
+Copy everything from [here](https://raw.githubusercontent.com/random-development-hub/AwfulTastingCookies/main/cheatbar.js)
 
 Go to [orteil's cookie clicker](https://orteil.dashnet.org/cookieclicker/)
 
