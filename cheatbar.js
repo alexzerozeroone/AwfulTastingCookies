@@ -4,13 +4,14 @@ document.getElementById("topBar").hidden = true
 // add our custom bar
 var div = document.createElement("div");
 div.innerHTML = `
-<div style="margin: 5px;" id="newBar">
+<div style="margin: 3px;" id="newBar">
 <button style="font-size: 19px; border: none; margin: 1px; outline: none; border-radius: 2.5px; background-color: black; color: white;" id="gr">reset game</button>
 <button style="font-size: 19px; border: none; margin: 1px; outline: none; border-radius: 2.5px; background-color: black; color: white;" id="br">remove bar</button>
-<button style="font-size: 19px; border: none; margin: 1px; outline: none; border-radius: 2.5px; background-color: black; color: white;" id="infcookies">infinite cookies</button>
-<button style="font-size: 19px; border: none; margin: 1px; outline: none; border-radius: 2.5px; background-color: black; color: white;" id="influmps">infinite lumps</button>
+<button style="font-size: 19px; border: none; margin: 1px; outline: none; border-radius: 2.5px; background-color: black; color: white;" id="infcookies">inf cookies</button>
+<button style="font-size: 19px; border: none; margin: 1px; outline: none; border-radius: 2.5px; background-color: black; color: white;" id="influmps">inf lumps</button>
 <button style="font-size: 19px; border: none; margin: 1px; outline: none; border-radius: 2.5px; background-color: black; color: white;" id="suck">disable shimmers</button>
 <button style="font-size: 19px; border: none; margin: 1px; outline: none; border-radius: 2.5px; background-color: black; color: white;" id="achv">achievements</button>
+<button style="font-size: 19px; border: none; margin: 1px; outline: none; border-radius: 2.5px; background-color: black; color: white;" id="upg">upgrades</button>
 <button style="font-size: 19px; border: none; margin: 1px; outline: none; border-radius: 2.5px; background-color: black; color: white;" id="ascendbtn">ascend</button>
 <h style="font-size: 20px;">Awful Tasting Cookies</h>
 </div>
@@ -18,6 +19,11 @@ div.innerHTML = `
 
 // append it
 document.getElementById("wrapper").appendChild(div);
+
+// close all notes constantly
+setInterval(function() {
+    Game.CloseNotes()
+}, 700)
 
 // functions for the buttons
 document.getElementById("gr").onclick = function() {
@@ -40,6 +46,10 @@ document.getElementById("infcookies").onclick = function() {
 
 document.getElementById("achv").onclick = function() {
     Game.SetAllAchievs(true)
+}
+
+document.getElementById("upg").onclick = function() {
+    Game.SetAllUpgrades(true)
 }
 
 document.getElementById("suck").onclick = function() {
