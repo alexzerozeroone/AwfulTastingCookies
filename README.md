@@ -1,4 +1,6 @@
 # AwfulTastingCookies
-a cheating bar for [orteil's cookie clicker](https://orteil.dashnet.org/cookieclicker/)
+A cheating bar for [orteil's cookie clicker](https://orteil.dashnet.org/cookieclicker/)
 # You're cheating!!!!! Stop it!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-it's a singleplayer game.
+It's a singleplayer game.
+# How use this!?!?!??!!?
+Copy every from [here]()
