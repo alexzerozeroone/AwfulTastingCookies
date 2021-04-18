@@ -4,3 +4,4 @@ A cheating bar for [orteil's cookie clicker](https://orteil.dashnet.org/cookiecl
 It's a singleplayer game.
 # How use this!?!?!??!!?
 Copy every from [here]()
+
