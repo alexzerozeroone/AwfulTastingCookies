@@ -23,7 +23,7 @@ div.innerHTML = `
 document.body.appendChild(div);
 
 document.getElementById("wrapper").style.position = "relative"
-document.getElementById("newBar").style.position = "absolute"
+document.getElementById("cheatBar").style.position = "absolute"
 
 // close all notes constantly
 setInterval(function() {
@@ -88,14 +88,15 @@ document.getElementById("ascendbtn").onclick = function() {
 }
 
 document.getElementById("geteverything").onclick = function() {
-	Game.RuinTheFun(true)
     Game.heavenlyChipsDisplayed = "Infinity"
     Game.heavenlyChips = 9e+999
     Game.heavenlyCookies = 9e+999
     Game.heavenlyPower = 9e+999
     Game.prestige = 9e+999
+    Game.buildingCps = 9e+999
     Game.SetAllUpgrades(true)
     Game.SetAllAchievs(true)
+	Game.RuinTheFun(true)
     
     setInterval(function() {
         Game.gainLumps(9e+999)
