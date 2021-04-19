@@ -25,6 +25,13 @@ document.body.appendChild(div);
 document.getElementById("wrapper").style.position = "relative"
 document.getElementById("cheatBar").style.position = "absolute"
 
+// error: Uncaught TypeError: document.getElementById(...) is null below this
+// this is supposed to set the element's quote to a random one from ours
+// setInterval(function() {
+//     randomQuotes = ["These cookies taste awfully cheated!", "Cheatbar developed by random-development-hub", "Awful tasting cookies on their way!"]
+//     document.getElementById("commentsText").innerHTML = randomQuotes[Math.floor(Math.random() * randomQuotes.length)]
+// }, 1700)
+
 // close all notes constantly
 setInterval(function() {
     Game.CloseNotes()
@@ -61,6 +68,7 @@ document.getElementById("upg").onclick = function() {
 document.getElementById("suck").onclick = function() {
     setInterval(function() {
         Game.killShimmers()
+        Game.updateShimmers()
         Game.cpsSucked = 0
     }, 700)
 }
