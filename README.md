@@ -1,8 +1,9 @@
 # AwfulTastingCookies
 A cheating bar for [orteil's cookie clicker](https://orteil.dashnet.org/cookieclicker/)
-# You're cheating!!!!! Stop it!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# FAQ
+1. About cheating:
 It's a singleplayer game.
-# How use this!?!?!??!!?
+# Usage
 Copy everything from [here](https://raw.githubusercontent.com/random-development-hub/AwfulTastingCookies/main/cheatbar.js)
 
 Go to [orteil's cookie clicker](https://orteil.dashnet.org/cookieclicker/)
