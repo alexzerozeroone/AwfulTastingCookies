@@ -1,10 +1,10 @@
 # AwfulTastingCookies
+
 A cheating bar for [orteil's cookie clicker](https://orteil.dashnet.org/cookieclicker/)
-# FAQ
-1. About cheating:
-It's a singleplayer game. There is a literal function named RuinTheFun()
-# Usage
-Copy everything from [here](https://raw.githubusercontent.com/alexzerozeroone/AwfulTastingCookies/main/cheatbar.js)
+
+# Manual
+
+Copy everything from [here](https://raw.githubusercontent.com/alexzerozeroone/AwfulTastingCookies/main/src/remaster.js)
 
 Go to [orteil's cookie clicker](https://orteil.dashnet.org/cookieclicker/)
 
